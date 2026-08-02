@@ -1,8 +1,16 @@
 aid: tradeblock
 name: Tradeblock
-description: Tradeblock is a company surfaced as a portfolio company of a16z, dcvc, trinity-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tradeblock (operated by Astrolab, Inc. d/b/a Tradeblock, founded 2019) is a
+  mobile-first, peer-to-peer sneaker trading marketplace that lets collectors use
+  their sneakers as currency. Members build a Closet and Wishlist, browse a feed of
+  public and private trade offers, and swap sneakers with other collectors, balancing
+  uneven trades with cash. Every trade routes through Tradeblock's authentication
+  centers, where shoes are verified for authenticity before shipping to each party.
+  The service also surfaces supply-and-demand signals for individual sneaker models.
+  Tradeblock is a consumer app (iOS, Android, and web) backed by Andreessen Horowitz
+  (a16z), Trinity Ventures, and DCVC; it does not publish a public developer API,
+  SDKs, or a developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/tradeblock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,14 +20,66 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.tradeblock.us/favicon.ico
 tags:
 - Company
+- Sneakers
+- Marketplace
+- Trading
+- Consumer
+- E-Commerce
+- Mobile App
+- Authentication
+- Resale
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tradeblock-domain-security.yml
+- type: LLMsTxt
+  url: llms/tradeblock-llms.txt
+- type: Website
+  url: https://www.tradeblock.us/
+- type: SignUp
+  url: https://app.tradeblock.us/register
+- type: Support
+  url: https://tradeblock.zendesk.com/hc/en-us
+- type: HelpCenter
+  url: https://tradeblock.zendesk.com/hc/en-us
+- type: TermsOfService
+  url: https://tradeblock.zendesk.com/hc/en-us/articles/14865208526871-Terms-of-Service
+- type: PrivacyPolicy
+  url: https://tradeblock.zendesk.com/hc/en-us/articles/14865368240919-Privacy-Policy
+- type: Blog
+  url: https://marketing.tradeblock.us/
+- type: X
+  url: https://x.com/tradeblock_us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tradeblock-us
+- type: AppStore
+  url: https://apps.apple.com/us/app/tradeblock-sneaker-trading/id1544090672
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.astrolab4native
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

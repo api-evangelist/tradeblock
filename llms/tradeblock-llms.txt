@@ -1,0 +1,23 @@
+# Tradeblock
+
+> Tradeblock (Astrolab, Inc. d/b/a Tradeblock, founded 2019) is a mobile-first, peer-to-peer sneaker trading marketplace where collectors use their sneakers as currency. Members build a Closet and Wishlist, browse public and private trade offers, and swap sneakers with other collectors, balancing uneven trades with cash. Every trade is verified through Tradeblock's authentication centers before shipping. Tradeblock is a consumer app (iOS, Android, web) and does not publish a public developer API, SDKs, or a developer portal.
+
+## Product
+- [Website](https://www.tradeblock.us/): Marketing site and product overview
+- [Web app / Sign up](https://app.tradeblock.us/register): Register and trade on the web
+- [iOS app](https://apps.apple.com/us/app/tradeblock-sneaker-trading/id1544090672): Tradeblock on the Apple App Store
+- [Android app](https://play.google.com/store/apps/details?id=com.astrolab4native): Tradeblock on Google Play
+
+## Support & Legal
+- [Help Center](https://tradeblock.zendesk.com/hc/en-us): Support articles and ticket submission (support@tradeblock.us)
+- [Terms of Service](https://tradeblock.zendesk.com/hc/en-us/articles/14865208526871-Terms-of-Service)
+- [Privacy Policy](https://tradeblock.zendesk.com/hc/en-us/articles/14865368240919-Privacy-Policy)
+
+## Company
+- [Blog / Marketing](https://marketing.tradeblock.us/): Company updates and articles
+- [LinkedIn](https://www.linkedin.com/company/tradeblock-us)
+- [X / Twitter](https://x.com/tradeblock_us)
+
+## Notes
+- No public API, OpenAPI, SDK, MCP server, or developer documentation is published as of 2026-07-21.
+- api.tradeblock.us exists as an internal/private backend (Cloudflare-fronted, returns 403 to unauthenticated requests) and is not a public developer API.

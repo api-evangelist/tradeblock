@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of /.well-known/* on Tradeblock hosts
+note: >-
+  No /.well-known/ discovery documents are published. api.tradeblock.us is an
+  internal/private backend fronted by Cloudflare that returns 403 to
+  unauthenticated requests; it is not a public developer API. No documents
+  returned 200, so no raw files were saved and no WellKnown pointer is wired.
+documents:
+- host: https://www.tradeblock.us
+  path: /.well-known/security.txt
+  status: 404
+- host: https://www.tradeblock.us
+  path: /.well-known/api-catalog
+  status: 404
+- host: https://app.tradeblock.us
+  path: /.well-known/security.txt
+  status: 404
+- host: https://api.tradeblock.us
+  path: /.well-known/security.txt
+  status: 403
+- host: https://api.tradeblock.us
+  path: /.well-known/openid-configuration
+  status: 403
